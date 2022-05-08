@@ -1,0 +1,127 @@
+.table1 {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table2 {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table3 {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table4 {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.topic {
+    text-align: center;
+    background-color: rgb(182, 137, 69);
+    box-sizing: border-box;
+    padding-top: 1px;
+    padding-bottom: 8px;
+}
+
+#link1 {
+    float: center;
+    font-size: larger;
+    box-sizing: border-box;
+}
+
+#link2 {
+    text-align: center;
+    font-size: larger;
+}
+
+#link1 {
+    padding-left: 10px;
+}
+
+.description {
+    font-size: x-large;
+    justify-content: cenetr;
+}
+
+.topic2 {
+    text-align: center;
+}
+
+.footer {
+    margin-top: 20px;
+    background-color: rgb(214, 205, 205);
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 5px;
+}
+
+
+/* ======================================================================================== */
+
+
+/* Media query */
+
+@media (max-width: 414px) and ( max-height: 1006px) {
+    .topic {
+        margin-left: 3px;
+        margin-right: 3px;
+        width: 100%;
+    }
+    .description {
+        margin-left: 3px;
+        margin-right: 3px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-size: medium;
+    }
+    .topic2 {
+        font-size: small;
+    }
+    .table1 {
+        margin-left: 3px;
+        margin-right: 3px;
+        width: 100%;
+    }
+    .table2 {
+        margin-left: 3px;
+        margin-right: 3px;
+        width: 100%;
+    }
+    .table3 {
+        margin-left: 3px;
+        margin-right: 3px;
+        width: 100%;
+    }
+    .table4 {
+        margin-left: 3px;
+        margin-right: 3px;
+        width: 100%;
+    }
+    .footer {
+        margin-left: 3px;
+        margin-right: 3px;
+        width: 100%;
+    }
+    #footer {
+        font-size: smaller;
+    }
+}
