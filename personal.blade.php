@@ -94,8 +94,6 @@
                                                 </div>
                                             </div>
                                             
-                                            
-
                                             <!-- Bonus -->
                                             <div class="bonus">
                                                 <label id="B"> &emsp; &emsp;  &emsp; &ensp; &nbsp;  Bonus &emsp; &emsp; &emsp; &ensp; &nbsp; </label>   
@@ -112,16 +110,13 @@
                                                 </div>
                                             </div>
                                             
-                                            
-                                           
                                             <!-- Total tax of the year -->
                                             <div class="total">
                                                 <label id="T"> Total tax: <span id="total-tax"></span> </label>
 
                                             </div>
                                             <br>
-                                            
-                                
+            
                                             <!-- for calculate button -->
                                             <div class=" button ">
                                                 <button type="submit" id="Calculate" onclick="">Calculate</button>
@@ -141,15 +136,7 @@
 
                                                     </div> 
                                                     
-                                                    <div class="link" style="text-align:center">
-                                                                <script>
-                                                                    function changepage(){
-                                                                        window.open("admin(control)");
-                                                                    }
-                                                                </script>
-                                                                    <button class="btn" onclick="changepage()">News</button>
-                                                                
-                                                    </div>
+                                                   
                                         </div>
        
     </div>
